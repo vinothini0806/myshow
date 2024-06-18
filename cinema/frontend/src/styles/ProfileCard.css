@@ -1,0 +1,159 @@
+/* styles/ProfileCard.css */
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 870px;
+    height:690px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.profile-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/*.profile-card-details {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    width: 100%;*/
+/*}*/
+
+.profile-card-left,
+.profile-card-center {
+    width: calc((100%) / 2);
+}
+
+.profile-card-left div,
+.profile-card-center div {
+    margin: 20px 0;
+}
+
+.profile-card-right {
+    width: 10%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card-right .edit-links a {
+    margin: 17px 0;
+}
+
+.profile-card .info-section {
+    text-align: center;
+}
+
+.profile-card .info-section h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-card-right .edit-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-card-right .edit-links .edit-icon{
+    display: flex;
+    justify-content: center;
+    color: #4f6f52;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 17px 0px;
+}
+/*.profile-card-right .edit-links .edit-icon {*/
+/*    cursor: pointer;*/
+/*    margin-bottom: 10px;*/
+/*    !*display: flex;*!*!*/
+/*        justify-content: center;*/
+/*        color: #4f6f52;*/
+/*        font-size: 20px;*/
+/*        font-weight: bold;*/
+/*}*/
+
+.profile-card-left div {
+    font-family: Arial, sans-serif;
+    color: #4f6f52;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-card-center div {
+    display: block;
+    margin-bottom: 8px;
+    font-family: Arial, sans-serif;
+    color: #4f6f52;
+    font-size: 20px;
+}
+.profile-card-center input{
+    display: block;
+    /*margin-bottom: 8px;*/
+    font-family: Arial, sans-serif;
+    color: #4f6f52;
+    font-size: 20px;
+    margin : 24px 0;
+}
+
+.profile-card .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.profile-card .social-links a {
+    color: #4f6f52;
+    font-size: 20px;
+}
+
+.save-button{
+    padding: 10px 30px;
+    margin: 15px 30px 15px 100px;
+    border: none;
+    background-color: #4f6f52;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: center;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.cancel-button{
+    padding: 10px 30px;
+    margin: 15px 30px 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: center;
+    font-weight: bold;
+    font-size:16px;
+    background-color: #8B0000;
+}
+.edit-buttons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+

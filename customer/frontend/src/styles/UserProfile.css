@@ -1,0 +1,14 @@
+.profile-main-container{
+    min-height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url('/public/assets/profile_page.jpg');
+    background-size: cover;
+    background-color: #3e3e9c;
+}
+.profile-main-container-card{
+    display:flex;
+    alignItems:flex-start;
+}

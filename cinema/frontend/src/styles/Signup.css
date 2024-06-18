@@ -1,0 +1,65 @@
+/* Signup.css */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.signup-form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form .ant-form-item {
+    width: 100%;
+    text-align: center;
+}
+
+.signup-form-button {
+    width: 100%;
+}
+
+.dark-green-button {
+    background-color: #006400;
+    border-color: #006400;
+}
+
+.dark-green-button:hover,
+.dark-green-button:focus {
+    background-color: #004d00;
+    border-color: #004d00;
+}
+
+.site-form-item-icon {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.signup-form-forgot {
+    float: right;
+}
+
+.custom-link {
+    color: #006400;
+}
+
+.custom-link:hover {
+    color: #004d00;
+}
+
+.ant-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.title{
+    color: #006400;
+}

@@ -1,0 +1,156 @@
+/* styles/ProfileCard.css */
+
+.theatre-profile-card {
+    display: flex;
+    flex-direction: column;
+    width:1000px;
+    height:580px;
+    /*margin: 20px auto; !* Centers the card horizontally *!*/
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.theatre-profile-card img {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+.theatre-profile-card  h2 {
+    margin: 10px 0;
+    color: #333;
+    /*align-items: center;*/
+}
+
+.theatre-profile-card  p {
+    margin: 5px 0;
+    color: #555;
+}
+.profile-card-details {
+    display: flex;
+    /*justify-content: space-between;*/
+    width: 90%;
+    padding-left: 30px;
+}
+.profile-card-right {
+    width: 10%;
+    margin-left:1%;
+}
+.profile-card-left, .profile-card-center {
+
+    width: calc((100% - 10%) / 2);
+
+}
+
+
+/*.profile-card-center div{*/
+/*    display: block;*/
+/*}*/
+
+.profile-card-left div, .profile-card-center div{
+    margin: 20px 0;
+}
+
+.profile-card-right .edit-links a{
+    margin: 17px 0;
+}
+/*.profile-card-details{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding-left:100px;*/
+/*}*/
+
+.theatre-profile-card .info-section {
+    text-align: center; /* Center the text */
+}
+
+.theatre-profile-card  .info-section h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.profile-card-right .edit-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*margin: 10px 0;*/
+}
+
+.profile-card-right .edit-links a {
+    display: flex;
+    justify-content: center;
+    /*gap: 10px;*/
+    color: #4f6f52 ; /* Example color */
+    font-size: 20px; /* Example size */
+    font-weight: bold;
+
+}
+.profile-card-left div {
+    font-family: Arial, sans-serif; /* Example font family */
+    color:  #4f6f52; /* Example font color */
+    font-size: 20px; /* Example font size */
+    font-weight: bold;
+}
+
+.profile-card-center div{
+    font-family: Arial, sans-serif; /* Example font family */
+    color:  #4f6f52; /* Example font color */
+    font-size: 20px; /* Example font size */
+}
+
+.theatre-profile-card  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.theatre-profile-card  .social-links a {
+    color:  #4f6f52;
+    font-size: 20px;
+}
+.view-seats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set a height for the parent container */
+}
+.custom-button {
+    background-color: #4f6f52; /* Set button background color */
+    color: white; /* Set button font color */
+    font-size: 20px; /* Set button font size */
+    padding: 5px 25px; /* Set button padding */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    font-weight: bold; /* Make button text bold */
+    line-height: 1; /* Vertically center the text */
+}
+
+
+.custom-button:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+.info-section-theatre {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding-bottom: 20px; /* Add bottom padding */
+}
+
+.info-section h2 {
+    color: #333; /* Set text color */
+}
+
+

@@ -1,0 +1,22 @@
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 870px;
+    /*margin: 20px auto; !* Centers the card horizontally *!*/
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: #fff;
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.profile-header .header-details{
+    display: flex;
+    justify-content: center;
+    /*gap: 10px;*/
+
+    color: #4f6f52 ; /* Example color */
+    font-size: 30px; /* Example size */
+    font-weight: bold;
+}

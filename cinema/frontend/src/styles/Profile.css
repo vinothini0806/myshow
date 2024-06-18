@@ -1,0 +1,22 @@
+.left-column {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    max-width: 870px;
+
+}
+.right-column {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    max-width: 870px;
+    /*margin-right:10px;*/
+
+
+}
+.spacer {
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+.spacer-vertical{
+    margin-left: 40px;
+}

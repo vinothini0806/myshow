@@ -1,0 +1,50 @@
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-logo {
+    color: seagreen;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poetsen One';
+}
+
+.navbar-search {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-item {
+    font-size: 20px;
+}
+
+.navbar-link {
+    color:  seagreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar-link:hover {
+    text-decoration: none;  /* Ensures no underline on hover */
+}
+@media (max-width: 768px) {
+    .navbar-menu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-search {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+}

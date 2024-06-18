@@ -1,0 +1,46 @@
+.theatre-profile-header {
+    position: relative;
+    overflow: hidden;
+    height: 250px;/* Ensure content doesn't overflow the card */
+    width:1000px;
+    /*padding: 0;*/
+    /*background-color: #4f6f52!* Remove padding if you want the image to cover the entire card *!*/
+}
+.theatre-profile-header .image-row {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between images */
+    align-items: center; /* Center images vertically if they have different heights */
+}
+
+.profile-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100px; /* Set a fixed width for the images */
+    height: 100px; /* Set a fixed height for the images */
+    border-radius: 50%; /* Make the images circular */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    margin-bottom: 10px; /* Add some space between the image and the name */
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column; /* Stack name and edit icon vertically */
+    align-items: center;
+}
+
+.profile-name {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color:#4f6f52 ; /* Adjust the color as needed */
+    margin-bottom: 5px; /* Add some space between the name and the edit icon */
+}
+
+.edit-icon {
+    font-size: 18px; /* Adjust the size as needed */
+    color: #4f6f52; /* Adjust the color as needed */
+    cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+}

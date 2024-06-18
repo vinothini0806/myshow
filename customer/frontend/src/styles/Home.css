@@ -1,0 +1,19 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #53a3a4;*/
+}
+
+.top-movie-bar{
+    background-image: linear-gradient(to right, #060635, #68bfcf);
+    height: 30vw;
+    /*background-image: url("/public/assets/topBanner.png");*/
+    /*background-size:100% 100%;*/
+
+}
+
+.all-movie-bar{
+    /*background-color: #70b83c;*/
+    min-height: 500px;
+
+}
